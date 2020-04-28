@@ -2,14 +2,10 @@
 // Template Name: Sobre
 get_header(); 
 ?>
-<?php get_header(); ?>
 
-		<section class="introducao-interna interna_sobre">
-			<div class="container">
-				<h1>Sobre</h1>
-				<p>conheça mais sobre a bikcraft</p>
-			</div>
-		</section>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
 		<section class="missao_sobre container animar-interno">
 			<div class="grid-10">
@@ -51,5 +47,6 @@ get_header();
 				</li>
 			</ul>
 		</section>
+<?php endwhile; else: endif; ?>
 
 <?php get_footer(); ?>

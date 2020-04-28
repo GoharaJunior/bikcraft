@@ -2,30 +2,28 @@
 // Template Name: Produtos
 get_header(); 
 ?>
-<section class="introducao-interna interna_produtos">
-	<div class="container">
-		<h1>Produtos</h1>
-		<p>conheça todos os nossos produtos</p>
-	</div>
-</section>
 
-<section class="container produto_item animar-interno">
-	<div class="grid-11">
-		<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
-		<h2>Passeio</h2>
-	</div>
-	<div class="grid-5 produto_icone"><img src="img/produtos/passeio.png" alt="Icone Passeio"></div>
-	<div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio"></div>
-	<div class="grid-8 produto_info">
-		<p>Muito melhor do que passear pela orla a vidros fechados. A Bikcraft Passeio é uma bicicleta que une conforto e praticidade para o seu dia a dia. Você nunca mais vai querer saber de outra.</p>
-		<ul>
-			<li>Conforto</li>
-			<li>Praticidade</li>
-			<li>Design</li>
-			<li>Versatilidade</li>
-		</ul>
-	</div>
-</section>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+	<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
+
+	<section class="container produto_item animar-interno">
+		<div class="grid-11">
+			<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
+			<h2>Passeio</h2>
+		</div>
+		<div class="grid-5 produto_icone"><img src="img/produtos/passeio.png" alt="Icone Passeio"></div>
+		<div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio"></div>
+		<div class="grid-8 produto_info">
+			<p>Muito melhor do que passear pela orla a vidros fechados. A Bikcraft Passeio é uma bicicleta que une conforto e praticidade para o seu dia a dia. Você nunca mais vai querer saber de outra.</p>
+			<ul>
+				<li>Conforto</li>
+				<li>Praticidade</li>
+				<li>Design</li>
+				<li>Versatilidade</li>
+			</ul>
+		</div>
+	</section>
 
 <section class="container produto_item">
 	<div class="grid-11">
@@ -100,5 +98,6 @@ get_header();
 				</div>
 			</div>
 		</section>
+<?php endwhile; else: endif; ?>
 		
 <?php get_footer(); ?>
