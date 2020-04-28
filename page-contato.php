@@ -1,3 +1,7 @@
+<?php
+// Template Name: Contato
+get_header(); 
+?>
 <?php get_header(); ?>
 
 		<section class="introducao-interna interna_contato">
