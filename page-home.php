@@ -14,6 +14,7 @@ get_header();
 <style type="text/css">
 .introducao {
 	background: url('<?php echo $background_large[0] ?>') no-repeat center;
+	background-size: cover;
 }
 @media only screen and (max-width: 767px) {
 .introducao {
