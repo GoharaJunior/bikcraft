@@ -15,6 +15,7 @@ Version: 1.0
 @import 'css/produtos.css';
 @import 'css/portfolio.css';
 @import 'css/contato.css';
+@import 'css/blog.css';
 
 /* Estilos ADM Wordpress */
 
@@ -326,7 +327,7 @@ img {
 	width: 634px;
 	height: 83px;
 	display: block;
-	background: url("../img/linhas.png") no-repeat center;
+	background: url("img/linhas.png") no-repeat center;
 	position: absolute;
 	top: 209px;
 	right: 162px;
