@@ -1,0 +1,22 @@
+<h1 align="center">
+    <img width="150px" alt="WordPress Como CMS - LOGO" src="https://user-images.githubusercontent.com/57417305/79774710-8fe03000-8309-11ea-958b-2919a749be97.png" />
+</h1>
+
+<h1 align="center">
+    Curso WordPress como CMS - ORIGAMID (Estudo)
+</h2>
+ 
+ <p align="center">
+    No curso de WordPress Como CMS, você aprende do zero como pegar qualquer site em HTML e torná-lo totalmente gerenciável com
+    a plataforma do WordPress. Este é o próximo nível para você que já consegue criar sites em HTML/CSS mas ainda não tem
+    experiência com uma linguagem de programação.
+</p>
+
+> Um CMS serve para facilitar a sua vida e a do seu cliente. Pois ele permite o gerenciamento simples do conteúdo do seu site,
+através de uma interface que qualquer um pode aprender. O CMS será o WordPress, este está presente em mais de 25% dos sites
+da Web e em mais de 50% dos que utilizam um CMS.
+ 
+![certificate-preview-570950e1-1](https://user-images.githubusercontent.com/57417305/80658273-1f00ec80-8a5c-11ea-8c99-af336b68409c.png)
+
+![01-a](https://user-images.githubusercontent.com/57417305/80657906-39869600-8a5b-11ea-9401-30228d06acfd.png)
+
