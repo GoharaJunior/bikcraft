@@ -18,5 +18,20 @@ da Web e em mais de 50% dos que utilizam um CMS.
  
 ![certificate-preview-570950e1-1](https://user-images.githubusercontent.com/57417305/80658273-1f00ec80-8a5c-11ea-8c99-af336b68409c.png)
 
+<h2 align="center">
+    HOME
+</h2>
+
 ![01-a](https://user-images.githubusercontent.com/57417305/80657906-39869600-8a5b-11ea-9401-30228d06acfd.png)
 
+<h2 align="center">
+    SOBRE
+</h2>
+
+![02-a](https://user-images.githubusercontent.com/57417305/80659402-44dbc080-8a5f-11ea-9586-53754212fdcc.png)
+
+<h2 align="center">
+    PRODUTOS
+</h2>
+
+![03-a](https://user-images.githubusercontent.com/57417305/80659613-d3e8d880-8a5f-11ea-879e-c6d07a2f89e7.png)
